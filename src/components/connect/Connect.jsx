@@ -2,7 +2,9 @@ import "./connect.scss"
 
 const Connect = () => {
   return (
-    <div className="connect" id="connect"></div>
+    <div className="connect" id="connect">
+      connect
+    </div>
   )
 }
 

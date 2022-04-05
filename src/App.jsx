@@ -6,11 +6,13 @@ import Skills from "./components/skills/Skills";
 import Games from "./components/games/Games";
 import Connect from "./components/connect/Connect";
 import "./app.scss";
+import { useState } from "react";
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="app">
-      <Navbar/>
+      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Intro/>
         <Portfolio/>
