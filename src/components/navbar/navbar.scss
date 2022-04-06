@@ -7,7 +7,7 @@
   color: $mainColor;
   position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: 3;
   transition: all 1s ease;
 
   .wrapper {
@@ -44,6 +44,9 @@
         color: inherit;
         margin-right: 40px;
       }
+      .logo:hover {
+        color: lightcoral;
+      }
     }
     .right {
       .itemContainer {
@@ -55,25 +58,28 @@
           font-size: 42px;
           margin-right: 5px;
         }
+        .icon:hover {
+          color: lightcoral;
+        }
       }
     }
   }
 
   &.active {
-    background-color: $mainColor;
-    color: black;
+    // background-color: $mainColor;
+    // color: black;
 
     .hamburger {
       span {
         &:first-child {
-          background-color: black;
+          //background-color: black;
           transform: rotate(45deg);
         }
         &:nth-child(2) {
           opacity: 0;
         }
         &:last-child {
-          background-color: black;
+          //background-color: black;
           transform: rotate(-45deg);
         }
       }

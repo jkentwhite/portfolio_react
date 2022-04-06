@@ -2,7 +2,7 @@ import "./games.scss"
 
 const Games = () => {
   return (
-    <div className="games">
+    <div className="games" id="games">
       games
     </div>
   )
