@@ -12,7 +12,7 @@ const Intro = () => {
       showCursor: true,
       backDelay: 1500,
       backSpeed:60,
-      strings: ["artist", "storyteller", "game developer"],
+      strings: ["artist", "storyteller", "game designer","developer"],
     });
   }, []);
 
@@ -20,17 +20,17 @@ const Intro = () => {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/guscat.png" alt="a gus cat in a hat"/>
+          <img src="assets/randomlines-4980.jpg" alt="a gus cat in a hat"/>
         </div>
       </div>
       <div className="right">
         <div className="wrapper">
-          <h2>what up dawgs? i'm</h2>
-          <h1>jkentwhite</h1>
+          <h2>what up? i'm</h2>
+          <h1>j white</h1>
           <h3><span ref={textRef}></span></h3>
         </div>
         <a href="#portfolio">
-          <img src="assets/downarrow.png" alt=""/>
+          <img src="assets/down_arrow.png" alt=""/>
         </a>
       </div>
     </div>

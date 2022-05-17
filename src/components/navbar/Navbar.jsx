@@ -12,12 +12,12 @@ const Navbar = ({menuOpen, setMenuOpen}) => {
             <span className="line2"></span>
             <span className="line3"></span>
           </div>
-          <a href="#intro" className="logo">jkentwhite</a>
+          <a href="#intro" className="logo">jkwhite</a>
         </div>
         <div className="right">
           <div className="itemContainer">
-            <GitHubIcon className="icon"/>
-            <WebIcon className="icon"/>
+            <a href="https://github.com/jkentwhite" target="_blank"><GitHubIcon className="icon"/></a>
+            <a href="https://jkentwhite.com" target="_blank"><WebIcon className="icon"/></a>
           </div>
         </div>
       </div>

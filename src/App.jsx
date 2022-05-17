@@ -9,8 +9,12 @@ import Menu from "./components/menu/Menu"
 import "./app.scss";
 import { useState } from "react";
 
+
+
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
+  
+
   return (
     <div className="app">
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
@@ -19,7 +23,6 @@ function App() {
         <Intro/>
         <Portfolio/>
         <Skills/>
-        <Games/>
         <Connect/>
       </div>
     </div>
